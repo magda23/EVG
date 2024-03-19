@@ -1,0 +1,1613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVG</title>
+    <link rel="stylesheet" href="plugin/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="plugin/swiper/css/swiper.min.css" />
+    <link rel="stylesheet" href="plugin/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="top_header">
+        <div class="container custom_container">
+          <div class="d-flex aling-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <button class="info_ category_btn d-flex align-items-center">
+                <div class="menu_icon">
+                  <img
+                    src="img/menu-line.svg"
+                    alt="menu-line"
+                    class="burger_"
+                  />
+                  <img src="img/close.svg" alt="close" class="close" />
+                </div>
+                <p class="category_p">ყველა კატეგორია</p>
+              </button>
+              <div class="search_container d-lg-flex align-items-center d-none">
+                <button class="search_icon">
+                  <img src="img/search-line.svg" alt="" />
+                </button>
+                <input
+                  type="text"
+                  placeholder="რას ეძებ?"
+                  class="search_input"
+                />
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <div class="info_items d-flex align-items-center">
+                <div class="icon_img">
+                  <img src="img/user-line-s.svg" alt="user-icon" />
+                </div>
+                <p class="d-lg-block d-none">მომხმარებელი</p>
+              </div>
+              <div class="info_items d-flex align-items-center">
+                <div class="icon_img">
+                  <img src="img/file-copy-line-s.svg" alt="user-icon" />
+                </div>
+                <p class="d-lg-block d-none">შედარება</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile_search container d-lg-none d-block">
+        <div class="search_container d-flex align-items-center">
+          <button class="search_icon">
+            <img src="img/search-line.svg" alt="" />
+          </button>
+          <input type="text" placeholder="რას ეძებ?" class="search_input" />
+        </div>
+      </div>
+      <div class="bottom_header">
+        <div class="container custom_container">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center justify-content-center">
+              <a href="index.html">
+                <div class="logo_">
+                  <img src="img/EVG_logo.svg" alt="evg-logo" />
+                </div>
+              </a>
+              <ul class="d-sm-flex d-none list_item">
+                <li class="list_li">
+                  <a href="#">ჩვენ შესახებ</a>
+                </li>
+                <li class="list_li">
+                  <a href="#">შესყიდვის პოლიტიკა</a>
+                </li>
+                <li class="list_li">
+                  <a href="#">კონტაქტი</a>
+                </li>
+              </ul>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <div class="basket_ d-flex align-items-center">
+                <div class="basket_icon">
+                  <img src="img/shopping-cart-2-line-L.svg" alt="cart" />
+                </div>
+                <div class="info_ d-lg-block d-none ms-3">
+                  <p class="info_title">კალათა</p>
+                  <p class="item_quantity">0 ნივთი</p>
+                </div>
+              </div>
+              <div class="wishlist d-flex align-items-center">
+                <div class="wishlist_icon">
+                  <img src="img/wishlist.svg" alt="cart" />
+                </div>
+                <div class="info_ d-lg-block d-none ms-3">
+                  <p class="info_title">სურვილები</p>
+                  <p class="item_quantity">0 ნივთი</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="position-relative">
+      <div class="category_">
+        <div class="category_box">
+          <ul class="category_ul position-relative">
+            <li class="category_li info_ d-flex align-items-center">
+              <svg
+                class="svg-icon me-3"
+                width="20"
+                height="19"
+                viewBox="0 0 20 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 13H18V2H2V13ZM11 15V17H15V19H5V17H9V15H0.9918C0.44405 15 0 14.5511 0 13.9925V1.00748C0 0.45107 0.45531 0 0.9918 0H19.0082C19.556 0 20 0.44892 20 1.00748V13.9925C20 14.5489 19.5447 15 19.0082 15H11Z"
+                  fill="#919191"
+                />
+              </svg>
+              <p class="category_p">კომპიუტერები და პროგრამები</p>
+              <ul class="category_inside_ul position-absolute">
+                <li class="category_inside_li">
+                  ქვეკატეგორია
+                  <ul class="sub_category_ul position-absolute">
+                    <li class="sub_category_li mb-3">ქვეკატეგორია</li>
+                    <li class="sub_category_li mb-3">სხვა ქვეკატეგორია</li>
+                    <li class="sub_category_li mb-3">
+                      კიდევ ერთი ქვეკატეგორია
+                    </li>
+                    <li class="sub_category_li mb-3">სხვა ქვეკატეგორია</li>
+                    <li class="sub_category_li mb-3">
+                      კიდევ ერთი ქვეკატეგორია
+                    </li>
+                    <li class="sub_category_li mb-3">ქვეკატეგორია</li>
+                  </ul>
+                </li>
+                <li class="category_inside_li">
+                  სხვა ქვეკატეგორია
+                  <ul class="sub_category_ul position-absolute">
+                    <li class="sub_category_li mb-3">ქვეკატეგორია</li>
+                    <li class="sub_category_li mb-3">სხვა ქვეკატეგორია</li>
+                    <li class="sub_category_li mb-3">
+                      კიდევ ერთი ქვეკატეგორია
+                    </li>
+                    <li class="sub_category_li mb-3">სხვა ქვეკატეგორია</li>
+                    <li class="sub_category_li mb-3">
+                      კიდევ ერთი ქვეკატეგორია
+                    </li>
+                    <li class="sub_category_li mb-3">ქვეკატეგორია</li>
+                  </ul>
+                </li>
+                <li class="category_inside_li">კიდევ ერთი ქვეკატეგორია</li>
+                <li class="category_inside_li">ქვეკატეგორია</li>
+                <li class="category_inside_li">სხვა ქვეკატეგორია</li>
+                <li class="category_inside_li">კიდევ ერთი ქვეკატეგორია</li>
+              </ul>
+            </li>
+            <li class="category_li info_ d-flex align-items-center">
+              <svg
+                class="svg-icon me-3"
+                width="20"
+                height="19"
+                viewBox="0 0 20 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 13H18V2H2V13ZM11 15V17H15V19H5V17H9V15H0.9918C0.44405 15 0 14.5511 0 13.9925V1.00748C0 0.45107 0.45531 0 0.9918 0H19.0082C19.556 0 20 0.44892 20 1.00748V13.9925C20 14.5489 19.5447 15 19.0082 15H11Z"
+                  fill="#919191"
+                />
+              </svg>
+              <p class="category_p">კომპიუტერები და პროგრამების კატეგორია</p>
+              <ul class="category_inside_ul position-absolute">
+                <li class="category_inside_li">ქვეკატეგორია</li>
+
+                <li class="category_inside_li">ქვეკატეგორია</li>
+                <li class="category_inside_li">ქვეკატეგორია</li>
+                <li class="category_inside_li">ქვეკატეგორია</li>
+                <li class="category_inside_li">ქვეკატეგორია</li>
+                <li class="category_inside_li">ქვეკატეგორია</li>
+              </ul>
+            </li>
+            <li class="category_li info_ d-flex align-items-center">
+              <svg
+                class="svg-icon me-3"
+                width="20"
+                height="19"
+                viewBox="0 0 20 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 13H18V2H2V13ZM11 15V17H15V19H5V17H9V15H0.9918C0.44405 15 0 14.5511 0 13.9925V1.00748C0 0.45107 0.45531 0 0.9918 0H19.0082C19.556 0 20 0.44892 20 1.00748V13.9925C20 14.5489 19.5447 15 19.0082 15H11Z"
+                  fill="#919191"
+                />
+              </svg>
+              <p class="category_p">სხვა კატეგორია</p>
+              <ul class="category_inside_ul position-absolute">
+                <li class="category_inside_li">ქვეკატეგორია</li>
+
+                <li class="category_inside_li">ქვეკატეგორია</li>
+                <li class="category_inside_li">ქვეკატეგორია</li>
+                <li class="category_inside_li">ქვეკატეგორია</li>
+                <li class="category_inside_li">ქვეკატეგორია</li>
+                <li class="category_inside_li">ქვეკატეგორია</li>
+              </ul>
+            </li>
+            <li class="category_li info_ d-flex align-items-center">
+              <svg
+                class="svg-icon me-3"
+                width="20"
+                height="19"
+                viewBox="0 0 20 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 13H18V2H2V13ZM11 15V17H15V19H5V17H9V15H0.9918C0.44405 15 0 14.5511 0 13.9925V1.00748C0 0.45107 0.45531 0 0.9918 0H19.0082C19.556 0 20 0.44892 20 1.00748V13.9925C20 14.5489 19.5447 15 19.0082 15H11Z"
+                  fill="#919191"
+                />
+              </svg>
+              <p class="category_p">კიდევ ერთი კატეგორია</p>
+            </li>
+            <li class="category_li info_ d-flex align-items-center">
+              <svg
+                class="svg-icon me-3"
+                width="20"
+                height="19"
+                viewBox="0 0 20 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 13H18V2H2V13ZM11 15V17H15V19H5V17H9V15H0.9918C0.44405 15 0 14.5511 0 13.9925V1.00748C0 0.45107 0.45531 0 0.9918 0H19.0082C19.556 0 20 0.44892 20 1.00748V13.9925C20 14.5489 19.5447 15 19.0082 15H11Z"
+                  fill="#919191"
+                />
+              </svg>
+              <p class="category_p">კომპიუტერები და პროგრამები</p>
+            </li>
+            <li class="category_li info_ d-flex align-items-center">
+              <svg
+                class="svg-icon me-3"
+                width="20"
+                height="19"
+                viewBox="0 0 20 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 13H18V2H2V13ZM11 15V17H15V19H5V17H9V15H0.9918C0.44405 15 0 14.5511 0 13.9925V1.00748C0 0.45107 0.45531 0 0.9918 0H19.0082C19.556 0 20 0.44892 20 1.00748V13.9925C20 14.5489 19.5447 15 19.0082 15H11Z"
+                  fill="#919191"
+                />
+              </svg>
+              <p class="category_p">კომპიუტერები და პროგრამების კატეგორია</p>
+            </li>
+            <li class="category_li info_ d-flex align-items-center">
+              <svg
+                class="svg-icon me-3"
+                width="20"
+                height="19"
+                viewBox="0 0 20 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 13H18V2H2V13ZM11 15V17H15V19H5V17H9V15H0.9918C0.44405 15 0 14.5511 0 13.9925V1.00748C0 0.45107 0.45531 0 0.9918 0H19.0082C19.556 0 20 0.44892 20 1.00748V13.9925C20 14.5489 19.5447 15 19.0082 15H11Z"
+                  fill="#919191"
+                />
+              </svg>
+              <p class="category_p">სხვა კატეგორია</p>
+            </li>
+            <li class="category_li info_ d-flex align-items-center">
+              <svg
+                class="svg-icon me-3"
+                width="20"
+                height="19"
+                viewBox="0 0 20 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 13H18V2H2V13ZM11 15V17H15V19H5V17H9V15H0.9918C0.44405 15 0 14.5511 0 13.9925V1.00748C0 0.45107 0.45531 0 0.9918 0H19.0082C19.556 0 20 0.44892 20 1.00748V13.9925C20 14.5489 19.5447 15 19.0082 15H11Z"
+                  fill="#919191"
+                />
+              </svg>
+              <p class="category_p">კიდევ ერთი კატეგორია</p>
+            </li>
+            <li class="category_li info_ d-flex align-items-center">
+              <svg
+                class="svg-icon me-3"
+                width="20"
+                height="19"
+                viewBox="0 0 20 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 13H18V2H2V13ZM11 15V17H15V19H5V17H9V15H0.9918C0.44405 15 0 14.5511 0 13.9925V1.00748C0 0.45107 0.45531 0 0.9918 0H19.0082C19.556 0 20 0.44892 20 1.00748V13.9925C20 14.5489 19.5447 15 19.0082 15H11Z"
+                  fill="#919191"
+                />
+              </svg>
+              <p class="category_p">კომპიუტერები და პროგრამები</p>
+            </li>
+            <li class="category_li info_ d-flex align-items-center">
+              <svg
+                class="svg-icon me-3"
+                width="20"
+                height="19"
+                viewBox="0 0 20 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 13H18V2H2V13ZM11 15V17H15V19H5V17H9V15H0.9918C0.44405 15 0 14.5511 0 13.9925V1.00748C0 0.45107 0.45531 0 0.9918 0H19.0082C19.556 0 20 0.44892 20 1.00748V13.9925C20 14.5489 19.5447 15 19.0082 15H11Z"
+                  fill="#919191"
+                />
+              </svg>
+              <p class="category_p">სხვა კატეგორია</p>
+            </li>
+
+            <li class="category_li info_ d-flex align-items-center">
+              <svg
+                class="svg-icon me-3"
+                width="20"
+                height="19"
+                viewBox="0 0 20 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 13H18V2H2V13ZM11 15V17H15V19H5V17H9V15H0.9918C0.44405 15 0 14.5511 0 13.9925V1.00748C0 0.45107 0.45531 0 0.9918 0H19.0082C19.556 0 20 0.44892 20 1.00748V13.9925C20 14.5489 19.5447 15 19.0082 15H11Z"
+                  fill="#919191"
+                />
+              </svg>
+              <p class="category_p">კიდევ ერთი კატეგორია</p>
+            </li>
+            <li class="category_li info_ d-flex align-items-center">
+              <svg
+                class="svg-icon me-3"
+                width="20"
+                height="19"
+                viewBox="0 0 20 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 13H18V2H2V13ZM11 15V17H15V19H5V17H9V15H0.9918C0.44405 15 0 14.5511 0 13.9925V1.00748C0 0.45107 0.45531 0 0.9918 0H19.0082C19.556 0 20 0.44892 20 1.00748V13.9925C20 14.5489 19.5447 15 19.0082 15H11Z"
+                  fill="#919191"
+                />
+              </svg>
+              <p class="category_p">კომპიუტერები და პროგრამები</p>
+            </li>
+            <li class="category_li info_ d-flex align-items-center">
+              <svg
+                class="svg-icon me-3"
+                width="20"
+                height="19"
+                viewBox="0 0 20 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 13H18V2H2V13ZM11 15V17H15V19H5V17H9V15H0.9918C0.44405 15 0 14.5511 0 13.9925V1.00748C0 0.45107 0.45531 0 0.9918 0H19.0082C19.556 0 20 0.44892 20 1.00748V13.9925C20 14.5489 19.5447 15 19.0082 15H11Z"
+                  fill="#919191"
+                />
+              </svg>
+              <p class="category_p">სხვა კატეგორია</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section class="hero_section">
+        <div class="swiper s1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slider_img w-100 h-100 position-relative">
+                <div class="slider_info position-absolute w-100 h-100">
+                  <div class="container custom_container h-100">
+                    <div class="slider_main_info position-relative h-100 z-">
+                      <div class="text_content">
+                        <div class="info_">
+                          <a href="#">
+                            <p class="secondary_title">საუკეთესო კატალოგი</p>
+                          </a>
+                          <h1 class="main_title">GAMING კატეგორიაში</h1>
+                        </div>
+
+                        <div class="primary_btn">
+                          <a
+                            href=""
+                            class="d-flex align-items-center justify-content-center"
+                          >
+                            <p>აღმოაჩინე კატეგორია</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider_img w-100 h-100 position-relative">
+                <div class="slider_info position-absolute w-100 h-100">
+                  <div class="container custom_container h-100">
+                    <div class="slider_main_info position-relative h-100 z-">
+                      <div class="text_content">
+                        <div class="info_">
+                          <a href="#">
+                            <p class="secondary_title">საუკეთესო კატალოგი</p>
+                          </a>
+                          <h1 class="main_title">GAMING კატეგორიაში</h1>
+                        </div>
+
+                        <div class="primary_btn">
+                          <a
+                            href=""
+                            class="d-flex align-items-center justify-content-center"
+                          >
+                            <p>აღმოაჩინე კატეგორია</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider_img w-100 h-100 position-relative">
+                <div class="slider_info position-absolute w-100 h-100">
+                  <div class="container custom_container h-100">
+                    <div class="slider_main_info position-relative h-100 z-">
+                      <div class="text_content">
+                        <div class="info_">
+                          <a href="#">
+                            <p class="secondary_title">საუკეთესო კატალოგი</p>
+                          </a>
+                          <h1 class="main_title">GAMING კატეგორიაში</h1>
+                        </div>
+
+                        <div class="primary_btn">
+                          <a
+                            href=""
+                            class="d-flex align-items-center justify-content-center"
+                          >
+                            <p>აღმოაჩინე კატეგორია</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider_img w-100 h-100 position-relative">
+                <div class="slider_info position-absolute w-100 h-100">
+                  <div class="container custom_container h-100">
+                    <div class="slider_main_info position-relative h-100 z-">
+                      <div class="text_content">
+                        <div class="info_">
+                          <a href="#">
+                            <p class="secondary_title">საუკეთესო კატალოგი</p>
+                          </a>
+                          <h1 class="main_title">GAMING კატეგორიაში</h1>
+                        </div>
+
+                        <div class="primary_btn">
+                          <a
+                            href=""
+                            class="d-flex align-items-center justify-content-center"
+                          >
+                            <p>აღმოაჩინე კატეგორია</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pagination_ h-100 w-100 position-absolute">
+            <div class="container custom_container position-relative h-100">
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="recommended_section">
+        <div class="container custom_container">
+          <div class="d-flex align-items-center mb_8">
+            <div class="me-3">
+              <img src="img/star.svg" alt="" />
+            </div>
+            <h2 class="title_ info_">
+              <p>რეკომენდირებული პროდუქცია</p>
+            </h2>
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-between flex-wrap"
+          >
+            <ul class="element_ul d-flex aling-items-center mb-2">
+              <li class="element_li active">ყველა</li>
+              <li class="element_li">ახალი</li>
+              <li class="element_li">პოპულარული</li>
+            </ul>
+            <a href="#" class="mb-2">
+              <div class="all_items">
+                ყველა პროდუქტი
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="product_section position-relative">
+        <div class="container custom_container position-relative">
+          <div class="navigations_">
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="fa-solid fa-chevron-left"></i>
+            </div>
+          </div>
+          <div class="swiper s2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product_item text-center position-relative">
+                  <div class="percentage_ position-absolute">-75%</div>
+                  <div class="icons_ d-flex">
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/flashlight-fill.svg" alt="" />
+                    </div>
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/box.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="product_img">
+                    <img
+                      src="img/productImg.png"
+                      alt="watch"
+                      class="img_fluid"
+                    />
+                  </div>
+                  <h3 class="product_title text-center">სმარტ საათი Acme</h3>
+                  <h4 class="product_sm_title text-center">
+                    Fitness Activity Tracker with Heart Rate
+                  </h4>
+                  <div class="price_block">
+                    <div class="curr_price">₾ 2 459.99</div>
+                  </div>
+                  <div class="add_cart_block">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div
+                        class="item_block fav_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/heart.svg" alt="" />
+                      </div>
+                      <div
+                        class="add_cart d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/cart_sm.svg" alt="" />
+                        <p>კალათაში</p>
+                      </div>
+                      <div
+                        class="item_block copy_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/copy.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_item text-center position-relative">
+                  <div class="percentage_ position-absolute">-75%</div>
+                  <div class="icons_ d-flex">
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/flashlight-fill.svg" alt="" />
+                    </div>
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/box.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="product_img">
+                    <img
+                      src="img/productImg.png"
+                      alt="watch"
+                      class="img_fluid"
+                    />
+                  </div>
+                  <h3 class="product_title text-center">სმარტ საათი Acme</h3>
+                  <h4 class="product_sm_title text-center">
+                    Fitness Activity Tracker with Heart Rate
+                  </h4>
+                  <div class="price_block">
+                    <div class="curr_price">₾ 2 459.99</div>
+                    <div class="old_price">₾ 2 459.99</div>
+                  </div>
+                  <div class="add_cart_block">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div
+                        class="item_block fav_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/heart.svg" alt="" />
+                      </div>
+                      <div
+                        class="add_cart d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/cart_sm.svg" alt="" />
+                        <p>კალათაში</p>
+                      </div>
+                      <div
+                        class="item_block copy_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/copy.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_item text-center position-relative">
+                  <div class="percentage_ position-absolute">-75%</div>
+                  <div class="icons_ d-flex">
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/flashlight-fill.svg" alt="" />
+                    </div>
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/box.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="product_img">
+                    <img
+                      src="img/productImg.png"
+                      alt="watch"
+                      class="img_fluid"
+                    />
+                  </div>
+                  <h3 class="product_title text-center">სმარტ საათი Acme</h3>
+                  <h4 class="product_sm_title text-center">
+                    Fitness Activity Tracker with Heart Rate
+                  </h4>
+                  <div class="price_block">
+                    <div class="curr_price">₾ 2 459.99</div>
+                  </div>
+                  <div class="add_cart_block">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div
+                        class="item_block fav_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/heart.svg" alt="" />
+                      </div>
+                      <div
+                        class="add_cart d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/cart_sm.svg" alt="" />
+                        <p>კალათაში</p>
+                      </div>
+                      <div
+                        class="item_block copy_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/copy.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_item text-center position-relative">
+                  <div class="percentage_ position-absolute">-75%</div>
+                  <div class="icons_ d-flex">
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/flashlight-fill.svg" alt="" />
+                    </div>
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/box.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="product_img">
+                    <img
+                      src="img/productImg.png"
+                      alt="watch"
+                      class="img_fluid"
+                    />
+                  </div>
+                  <h3 class="product_title text-center">სმარტ საათი Acme</h3>
+                  <h4 class="product_sm_title text-center">
+                    Fitness Activity Tracker with Heart Rate
+                  </h4>
+                  <div class="price_block">
+                    <div class="curr_price">₾ 2 459.99</div>
+                    <div class="old_price">₾ 2 459.99</div>
+                  </div>
+                  <div class="add_cart_block">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div
+                        class="item_block fav_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/heart.svg" alt="" />
+                      </div>
+                      <div
+                        class="add_cart d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/cart_sm.svg" alt="" />
+                        <p>კალათაში</p>
+                      </div>
+                      <div
+                        class="item_block copy_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/copy.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_item text-center position-relative">
+                  <div class="percentage_ position-absolute">-75%</div>
+                  <div class="icons_ d-flex">
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/flashlight-fill.svg" alt="" />
+                    </div>
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/box.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="product_img">
+                    <img
+                      src="img/productImg.png"
+                      alt="watch"
+                      class="img_fluid"
+                    />
+                  </div>
+                  <h3 class="product_title text-center">სმარტ საათი Acme</h3>
+                  <h4 class="product_sm_title text-center">
+                    Fitness Activity Tracker with Heart Rate
+                  </h4>
+                  <div class="price_block">
+                    <div class="curr_price">₾ 2 459.99</div>
+                    <div class="old_price">₾ 2 459.99</div>
+                  </div>
+                  <div class="add_cart_block">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div
+                        class="item_block fav_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/heart.svg" alt="" />
+                      </div>
+                      <div
+                        class="add_cart d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/cart_sm.svg" alt="" />
+                        <p>კალათაში</p>
+                      </div>
+                      <div
+                        class="item_block copy_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/copy.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_item text-center position-relative">
+                  <div class="percentage_ position-absolute">-75%</div>
+                  <div class="icons_ d-flex">
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/flashlight-fill.svg" alt="" />
+                    </div>
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/box.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="product_img">
+                    <img
+                      src="img/productImg.png"
+                      alt="watch"
+                      class="img_fluid"
+                    />
+                  </div>
+                  <h3 class="product_title text-center">სმარტ საათი Acme</h3>
+                  <h4 class="product_sm_title text-center">
+                    Fitness Activity Tracker with Heart Rate
+                  </h4>
+                  <div class="price_block">
+                    <div class="curr_price">₾ 2 459.99</div>
+                    <div class="old_price">₾ 2 459.99</div>
+                  </div>
+                  <div class="add_cart_block">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div
+                        class="item_block fav_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/heart.svg" alt="" />
+                      </div>
+                      <div
+                        class="add_cart d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/cart_sm.svg" alt="" />
+                        <p>კალათაში</p>
+                      </div>
+                      <div
+                        class="item_block copy_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/copy.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_item text-center position-relative">
+                  <div class="percentage_ position-absolute">-75%</div>
+                  <div class="icons_ d-flex">
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/flashlight-fill.svg" alt="" />
+                    </div>
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/box.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="product_img">
+                    <img
+                      src="img/productImg.png"
+                      alt="watch"
+                      class="img_fluid"
+                    />
+                  </div>
+                  <h3 class="product_title text-center">სმარტ საათი Acme</h3>
+                  <h4 class="product_sm_title text-center">
+                    Fitness Activity Tracker with Heart Rate
+                  </h4>
+                  <div class="price_block">
+                    <div class="curr_price">₾ 2 459.99</div>
+                    <div class="old_price">₾ 2 459.99</div>
+                  </div>
+                  <div class="add_cart_block">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div
+                        class="item_block fav_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/heart.svg" alt="" />
+                      </div>
+                      <div
+                        class="add_cart d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/cart_sm.svg" alt="" />
+                        <p>კალათაში</p>
+                      </div>
+                      <div
+                        class="item_block copy_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/copy.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="service_section">
+        <div class="container custom_container">
+          <div class="row">
+            <div class="col-xl-8 col-lg-7 mb-lg-0 mb-4">
+              <div class="service_left_side h-100">
+                <div class="service_text_block">
+                  <div class="service_title info_">
+                    <p>კომპიუტერის აწყობა</p>
+                  </div>
+                  <p class="service_txt">
+                    ლორემ იპსუმ კარებქვეშ ბუნებრივ ფუსფუსებს მიიზლაზნება
+                    სტატიები ტომმ. გემსახურებდე შესთავაზეს გაყარო.
+                  </p>
+                  <a href="#" class="link_a">
+                    <div class="link_btn">
+                      აწყობა
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="img_side">
+                  <img src="img/comps.png" alt="parts" class="img_fluid" />
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-5 mb-lg-0 mb-4">
+              <div class="service_right_side h-100">
+                <div class="service_title info_ primary_color">
+                  <p>ტექნიკური სერვისი</p>
+                </div>
+                <p class="service_txt">
+                  ლორემ იპსუმ კარებქვეშ ბუნებრივ ფუსფუსებს მიიზლაზნება სტატიები
+                  ტომ.
+                </p>
+                <a href="#" class="link_a">
+                  <div class="link_btn">
+                    სპეციალისტის გამოძახება
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="percentage_section">
+        <div class="container custom_container">
+          <div class="d-flex align-items-center mb_8">
+            <div class="me-3">
+              <img src="img/percent.svg" alt="" />
+            </div>
+            <h2 class="title_ info_">
+              <p>ფასდაკლებული პროდუქცია</p>
+            </h2>
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-between flex-wrap"
+          >
+            <ul class="element_ul d-flex aling-items-center mb-2">
+              <li class="element_li">უახლესი ფასდაკლებები</li>
+            </ul>
+            <a href="#" class="mb-2">
+              <div class="all_items">
+                ყველა პროდუქტი
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="product_section position-relative">
+        <div class="container custom_container position-relative">
+          <div class="navigations_">
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="fa-solid fa-chevron-left"></i>
+            </div>
+          </div>
+          <div class="swiper s3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product_item text-center position-relative">
+                  <div class="percentage_ position-absolute">-75%</div>
+                  <div class="icons_ d-flex">
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/flashlight-fill.svg" alt="" />
+                    </div>
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/box.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="product_img">
+                    <img
+                      src="img/productImg.png"
+                      alt="watch"
+                      class="img_fluid"
+                    />
+                  </div>
+                  <h3 class="product_title text-center">სმარტ საათი Acme</h3>
+                  <h4 class="product_sm_title text-center">
+                    Fitness Activity Tracker with Heart Rate
+                  </h4>
+                  <div class="price_block">
+                    <div class="curr_price">₾ 2 459.99</div>
+                  </div>
+                  <div class="add_cart_block">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div
+                        class="item_block fav_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/heart.svg" alt="" />
+                      </div>
+                      <div
+                        class="add_cart d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/cart_sm.svg" alt="" />
+                        <p>კალათაში</p>
+                      </div>
+                      <div
+                        class="item_block copy_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/copy.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_item text-center position-relative">
+                  <div class="percentage_ position-absolute">-75%</div>
+                  <div class="icons_ d-flex">
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/flashlight-fill.svg" alt="" />
+                    </div>
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/box.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="product_img">
+                    <img
+                      src="img/productImg.png"
+                      alt="watch"
+                      class="img_fluid"
+                    />
+                  </div>
+                  <h3 class="product_title text-center">სმარტ საათი Acme</h3>
+                  <h4 class="product_sm_title text-center">
+                    Fitness Activity Tracker with Heart Rate
+                  </h4>
+                  <div class="price_block">
+                    <div class="curr_price">₾ 2 459.99</div>
+                    <div class="old_price">₾ 2 459.99</div>
+                  </div>
+                  <div class="add_cart_block">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div
+                        class="item_block fav_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/heart.svg" alt="" />
+                      </div>
+                      <div
+                        class="add_cart d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/cart_sm.svg" alt="" />
+                        <p>კალათაში</p>
+                      </div>
+                      <div
+                        class="item_block copy_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/copy.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_item text-center position-relative">
+                  <div class="percentage_ position-absolute">-75%</div>
+                  <div class="icons_ d-flex">
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/flashlight-fill.svg" alt="" />
+                    </div>
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/box.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="product_img">
+                    <img
+                      src="img/productImg.png"
+                      alt="watch"
+                      class="img_fluid"
+                    />
+                  </div>
+                  <h3 class="product_title text-center">სმარტ საათი Acme</h3>
+                  <h4 class="product_sm_title text-center">
+                    Fitness Activity Tracker with Heart Rate
+                  </h4>
+                  <div class="price_block">
+                    <div class="curr_price">₾ 2 459.99</div>
+                  </div>
+                  <div class="add_cart_block">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div
+                        class="item_block fav_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/heart.svg" alt="" />
+                      </div>
+                      <div
+                        class="add_cart d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/cart_sm.svg" alt="" />
+                        <p>კალათაში</p>
+                      </div>
+                      <div
+                        class="item_block copy_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/copy.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_item text-center position-relative">
+                  <div class="percentage_ position-absolute">-75%</div>
+                  <div class="icons_ d-flex">
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/flashlight-fill.svg" alt="" />
+                    </div>
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/box.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="product_img">
+                    <img
+                      src="img/productImg.png"
+                      alt="watch"
+                      class="img_fluid"
+                    />
+                  </div>
+                  <h3 class="product_title text-center">სმარტ საათი Acme</h3>
+                  <h4 class="product_sm_title text-center">
+                    Fitness Activity Tracker with Heart Rate
+                  </h4>
+                  <div class="price_block">
+                    <div class="curr_price">₾ 2 459.99</div>
+                    <div class="old_price">₾ 2 459.99</div>
+                  </div>
+                  <div class="add_cart_block">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div
+                        class="item_block fav_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/heart.svg" alt="" />
+                      </div>
+                      <div
+                        class="add_cart d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/cart_sm.svg" alt="" />
+                        <p>კალათაში</p>
+                      </div>
+                      <div
+                        class="item_block copy_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/copy.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_item text-center position-relative">
+                  <div class="percentage_ position-absolute">-75%</div>
+                  <div class="icons_ d-flex">
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/flashlight-fill.svg" alt="" />
+                    </div>
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/box.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="product_img">
+                    <img
+                      src="img/productImg.png"
+                      alt="watch"
+                      class="img_fluid"
+                    />
+                  </div>
+                  <h3 class="product_title text-center">სმარტ საათი Acme</h3>
+                  <h4 class="product_sm_title text-center">
+                    Fitness Activity Tracker with Heart Rate
+                  </h4>
+                  <div class="price_block">
+                    <div class="curr_price">₾ 2 459.99</div>
+                    <div class="old_price">₾ 2 459.99</div>
+                  </div>
+                  <div class="add_cart_block">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div
+                        class="item_block fav_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/heart.svg" alt="" />
+                      </div>
+                      <div
+                        class="add_cart d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/cart_sm.svg" alt="" />
+                        <p>კალათაში</p>
+                      </div>
+                      <div
+                        class="item_block copy_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/copy.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_item text-center position-relative">
+                  <div class="percentage_ position-absolute">-75%</div>
+                  <div class="icons_ d-flex">
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/flashlight-fill.svg" alt="" />
+                    </div>
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/box.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="product_img">
+                    <img
+                      src="img/productImg.png"
+                      alt="watch"
+                      class="img_fluid"
+                    />
+                  </div>
+                  <h3 class="product_title text-center">სმარტ საათი Acme</h3>
+                  <h4 class="product_sm_title text-center">
+                    Fitness Activity Tracker with Heart Rate
+                  </h4>
+                  <div class="price_block">
+                    <div class="curr_price">₾ 2 459.99</div>
+                    <div class="old_price">₾ 2 459.99</div>
+                  </div>
+                  <div class="add_cart_block">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div
+                        class="item_block fav_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/heart.svg" alt="" />
+                      </div>
+                      <div
+                        class="add_cart d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/cart_sm.svg" alt="" />
+                        <p>კალათაში</p>
+                      </div>
+                      <div
+                        class="item_block copy_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/copy.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_item text-center position-relative">
+                  <div class="percentage_ position-absolute">-75%</div>
+                  <div class="icons_ d-flex">
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/flashlight-fill.svg" alt="" />
+                    </div>
+                    <div
+                      class="add_component d-flex align-items-center justify-content-center"
+                    >
+                      <img src="img/box.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="product_img">
+                    <img
+                      src="img/productImg.png"
+                      alt="watch"
+                      class="img_fluid"
+                    />
+                  </div>
+                  <h3 class="product_title text-center">სმარტ საათი Acme</h3>
+                  <h4 class="product_sm_title text-center">
+                    Fitness Activity Tracker with Heart Rate
+                  </h4>
+                  <div class="price_block">
+                    <div class="curr_price">₾ 2 459.99</div>
+                    <div class="old_price">₾ 2 459.99</div>
+                  </div>
+                  <div class="add_cart_block">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div
+                        class="item_block fav_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/heart.svg" alt="" />
+                      </div>
+                      <div
+                        class="add_cart d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/cart_sm.svg" alt="" />
+                        <p>კალათაში</p>
+                      </div>
+                      <div
+                        class="item_block copy_item d-flex align-items-center justify-content-center"
+                      >
+                        <img src="img/copy.svg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gaming_section">
+        <div class="container custom_container">
+          <div class="row">
+            <div class="col-xl-8 col-lg-7 mb-4">
+              <div class="service_left_side product_bg position-relative h-100">
+                <div class="balls_img">
+                  <img src="img/balls.png" alt="" class="img_fluid" />
+                </div>
+                <div class="ball_img">
+                  <img src="img/ball.svg" alt="" class="img_fluid" />
+                </div>
+                <div class="service_text_block">
+                  <div class="service_title info_">
+                    <p>GAMING პროდუქცია</p>
+                  </div>
+                  <ul class="secondary_product_ul d-flex flex-wrap">
+                    <li class="secondary_product_li me-xl-3 me-2">
+                      <a href="#"> ნოუთბუქები </a>
+                    </li>
+                    <li class="secondary_product_li me-xl-3 me-2">
+                      <a href="#">ყურსასმენები</a>
+                    </li>
+                    <li class="secondary_product_li me-xl-3 me-2">
+                      <a href="#">კლავიატურები</a>
+                    </li>
+                    <li class="secondary_product_li me-xl-3 me-2">
+                      <a href="#">პადები</a>
+                    </li>
+                    <li class="secondary_product_li me-xl-3 me-2">
+                      <a href="#">ჯოისტიკები</a>
+                    </li>
+                    <li class="secondary_product_li me-xl-3 me-2">
+                      <a href="#">სათამაშო საჭეები</a>
+                    </li>
+                  </ul>
+                  <a href="#" class="link_a">
+                    <div class="link_btn">
+                      აღმოაჩინე კატეგორია
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="gaming_img">
+                  <img
+                    src="img/gaming_parts.png"
+                    alt="parts"
+                    class="img_fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-5 mb-4">
+              <div class="service_right_side h-100 position-relative">
+                <div class="service_title info_ dark_color">
+                  <p>სათვალთვალო სისტემები</p>
+                </div>
+                <ul class="service_ul d-flex flex-wrap">
+                  <li
+                    class="service_li d-flex align-items-center justify-content-center me-3 mb-3"
+                  >
+                    <a href="#">ანალოგური კამერები</a>
+                  </li>
+                  <li
+                    class="service_li d-flex align-items-center justify-content-center me-3 mb-3"
+                  >
+                    <a href="#">IP კამერები</a>
+                  </li>
+                  <li
+                    class="service_li d-flex align-items-center justify-content-center me-3 mb-3"
+                  >
+                    <a href="#">ვიდეოჩამწერები</a>
+                  </li>
+                  <li
+                    class="service_li d-flex align-items-center justify-content-center me-3 mb-3"
+                  >
+                    <a href="#">აქსესუარები</a>
+                  </li>
+                </ul>
+                <div class="service_img">
+                  <img src="img/video_camers.png" alt="" class="img_fluid" />
+                </div>
+                <a href="#" class="link_a">
+                  <div class="link_btn explore_category">
+                    აღმოაჩინე კატეგორია
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mb-lg-0 mb-4">
+              <div class="product_box info_ position-relative">
+                <p class="service_title">ნოუთბუქები</p>
+                <a href="#" class="link_a">
+                  <div class="link_btn">
+                    აღმოაჩინე კატეგორია
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </a>
+                <div class="img_product">
+                  <img src="img/laptop.png" alt="" class="img_fluid" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-lg-0 mb-4">
+              <div class="product_box info_ position-relative">
+                <p class="service_title">პრინტერები</p>
+                <a href="#" class="link_a">
+                  <div class="link_btn">
+                    აღმოაჩინე კატეგორია
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </a>
+                <div class="img_product">
+                  <img src="img/printer.png" alt="" class="img_fluid" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_">
+        <div class="container custom_container">
+          <div class="row">
+            <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
+              <h3 class="footer_title">ინფორმაცია</h3>
+              <ul>
+                <li class="mb-3">
+                  <a href="">ჩვენს შესახებ</a>
+                </li>
+                <li class="mb-3">
+                  <a href="">მიწოდების ინფორმაცია</a>
+                </li>
+                <li class="mb-3">
+                  <a href="">კონფიდენციალურობის პოლიტიკა</a>
+                </li>
+                <li class="mb-3">
+                  <a href="">წესები და პირობები</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
+              <h3 class="footer_title">საჭირო ბმულები</h3>
+              <ul>
+                <li class="mb-3">
+                  <a href="">ბრენდები</a>
+                </li>
+                <li class="mb-3">
+                  <a href="">სასაჩუქრე ვაუჩერები</a>
+                </li>
+                <li class="mb-3">
+                  <a href="">ფასდაკლებები</a>
+                </li>
+                <li class="mb-3">
+                  <a href="">კონტაქტი</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
+              <h3 class="footer_title">მომხმარებელთათვის</h3>
+              <ul>
+                <li class="mb-3">
+                  <a href="">ჩემი ანგარიში</a>
+                </li>
+                <li class="mb-3">
+                  <a href="">შეკვეთების ისტორია</a>
+                </li>
+                <li class="mb-3">
+                  <a href="">სურვილების სია</a>
+                </li>
+                <li class="mb-3">
+                  <a href="">გამოწერა</a>
+                </li>
+                <li class="mb-3">
+                  <a href="">საიტის რუკა</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
+              <h3 class="footer_title">საკონტაქტი ინფორმაცია</h3>
+              <ul>
+                <li class="mb-3">
+                  <a href="#" class="d-flex align-items-center"
+                    ><div class="sm_icon">
+                      <img src="img/pin.svg" alt="" />
+                    </div>
+                    ბათუმი, ჭავჭავაძის ქ. #66</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a href="tel:0422 27 17 49" class="d-flex align-items-center">
+                    <div class="sm_icon">
+                      <img src="img/tel.svg" alt="" />
+                    </div>
+                    0422 27 17 49</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a href="#" class="d-flex align-items-center">
+                    <div class="sm_icon">
+                      <img src="img/at.svg" alt="" />
+                    </div>
+                    info@evg.ge</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a href="#" class="d-flex align-items-center">
+                    <div class="sm_icon">
+                      <img src="img/facebook-box-line.svg" alt="" />
+                    </div>
+                    fb.com/evg.ge</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="plugin/swiper/js/swiper.min.js"></script>
+    <script src="plugin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
